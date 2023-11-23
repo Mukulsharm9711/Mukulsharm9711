@@ -1,0 +1,18 @@
+.class {
+    content: "";
+    background-image: url('/img/Businessman44.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 12px;
+  height: 395px;
+
+display: block;
+margin-top: 32px;
+padding: 9px;
+
+position: relative;
+
+  
+}

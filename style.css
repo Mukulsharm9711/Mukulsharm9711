@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    font-family: var(--font1);
+    height: 75px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-left {
+
+    display: flex;
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.2s ease-in;
+
+}
+
+.nav-left ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-big-color);
+    font-weight: bolder;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+
+}
+
+
+.content {
+    height: 395px;
+
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+
+ position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url('/img/Scchool_generated.jpg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 12px;
+}
+
+.content-left {
+
+    font-family: var(--font1);
+    padding: 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 267px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-articles {
+    margin-top: 23px;
+    padding: 18px;
+    background-color: rgb(255, 255, 255);
+}
+
+.home-article {
+    display: flex;
+    margin: 25px
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-article img {
+    width: 317px;
+}
+
+/* .home-articles{} */
+.footer {
+    height: 50px;
+    background-color: var(--main-big-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+
+
+}
+
+.footer a {
+    color: white;
+}
+
+.nav-right {
+    padding-left: 330px;
+}
